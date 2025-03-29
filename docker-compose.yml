@@ -9,3 +9,4 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./html:/home/app_user/html:ro
+    restart: always
